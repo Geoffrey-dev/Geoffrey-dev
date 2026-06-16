@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Contact — Jee Wallmaster</title>
+<meta name="description" content="Contact Jee Wallmaster for a free site visit and project estimate. Phone, email and contact form." />
+<link rel="stylesheet" href="styles.css">
+</head>
+<body  style="background-color:#f4b6b6 ;"></body>
+<header class="header">
+  <div class="container">
+    <div class="brand"><div class="logo">Jee Wallmaster</div><div><div style="font-size:16px">Jee Wallmaster</div><div style="font-size:12px;opacity:.9">Trusted construction in Nairobi and beyond</div></div></div>
+          <img src="img2.html/WhatsApp Image 2026-02-24 at 12.57.39.jpeg" alt="Jee Wallmaster Logo" class="logo2">
+    <nav class="nav">
+      <a href="home.html">Home</a>
+      <a href="projects.html">Projects Done</a>
+      <a href="about.html">About</a>
+      <a href="contacts.html">Contacts</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <div class="section-title"><h2>Contacts</h2><div class="small-muted">Get in touch for a free site visit and estimate</div></div>
+
+  <div class="grid two">
+    <div>
+      <div class="card">
+        <p class="lead">Contact us to schedule a free site consultation or request a project estimate.</p>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <input class="input" id="name" name="name" placeholder="Your name" required />
+          <input class="input" id="email" name="email" type="email" placeholder="Email" required />
+          <input class="input" id="phone" name="phone" placeholder="Phone" />
+          <select class="input" id="project-type" name="projectType">
+            <option value="">Project Type (select)</option>
+            <option>Residential Construction</option>
+            <option>Commercial Construction</option>
+            <option>Renovation / Remodeling</option>
+            <option>Civil / Infrastructure</option>
+            <option>Project Management</option>
+          </select>
+          <input class="input" id="budget" name="budget" placeholder="Estimated budget (optional)" />
+          <textarea id="message" name="message" rows="4" placeholder="Project details / message"></textarea>
+
+          <label class="dropzone" for="file">Attach files (plans/photos) — PDF / JPG / PNG (max 5 MB)</label>
+          <input id="file" name="file" type="file" accept=".pdf,image/*" class="hidden" />
+
+          <div id="file-preview" class="small-muted"></div>
+
+          <div style="display:flex;gap:10px;align-items:center;margin-top:6px">
+            <button class="btn" id="submit-btn" type="submit">Request Free Site Visit</button>
+            <div class="note">Or call <strong>0711206998</strong></div>
+          </div>
+
+          <div id="form-result" class="small-muted" style="margin-top:10px"></div>
+        </form>
+      </div>
+
+      <div style="margin-top:12px" class="card">
+        <div style="font-weight:700">Office</div>
+        <div class="small-muted">123 Builder Street, Industrial Area, [City], [State], 400001</div>
+        <div style="margin-top:12px"><div class="small-muted">Emergency / After hours</div><div style="font-weight:700">0711206998</div></div>
+      </div>
+    </div>
+
+    <aside>
+      <div class="card">
+        <div style="font-weight:700">Map</div>
+        <div class="map-placeholder">Map embed (replace with Google Maps iframe)</div>
+        
+        
+        <div style="margin-top:12px"><div style="font-weight:700">Contact Details</div><div class="small-muted" style="margin-top:6px">Email: danieelmiami@gmail.com</div><div class="small-muted">Phone: 0711206998</div></div>
+      </div>
+
+      <div style="margin-top:12px" class="card">
+        <div style="font-weight:700">Form fields we need</div>
+        <ul style="padding-left:18px;color:var(--muted)">
+          <li>Name, Email, Phone</li>
+          <li>Project Type, Estimated Budget</li>
+          <li>Message + File Upload (optional)</li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div>Jee Wallmaster— © <span id="year"></span></div>
+    <div class="footer-links"><a href="home.html" class="small-muted">Home</a><a href="projects.html" class="small-muted">Projects</a><a href="about.html" class="small-muted">About</a><a href="contacts.html" class="small-muted">Contact</a></div>
+  </div>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
